@@ -17,7 +17,7 @@ const Home = () => {
       </div>
       <div className="text-white relative z-10 max-w-[800px] w-full h-screen mx-auto text-center flex flex-col justify-center">
         <h1 className="text-9xl font-bubble">Bubble</h1>
-        <h2 className="text-2xl py-3">Find your people. Find your bubble</h2>
+        <h2 className="text-2xl py-3 font-bold">Find your people. Find your bubble</h2>
         <a href="/signup" className="w-[200px] mx-auto">
           <button className="w-[200px] rounded-md font-bold my-6 mx-auto px-6 py-3 text-lg bg-[#ffffff] hover:bg-[#0080FF] text-black hover:text-white transition duration-300 ease-in-out">
             Sign Up
