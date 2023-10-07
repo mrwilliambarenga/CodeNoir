@@ -8,6 +8,7 @@ Steps to start coding:
    - Navigate to your preferred folder location in your terminal
    - Type the following command into your terminal:
        - "git clone *the SSH link*"
+
 2) Create a virtual environment (venv)
    - Different for windows and mac and linux
    - For mac (and linux i think)
@@ -16,12 +17,14 @@ Steps to start coding:
            - "virtualenv venv"
        - To activate the virtual environment, type:
            - "source venv/bin/activate"
+
 3) Install requirements.txt
     - Navigate to the root of the project (called CodeNoir) in your terminal
     - Type the following command into your terminal:
         - "pip install -r requirements.txt"
         - or if that didn't work
         - "pip3 install -r requirements.txt"
+        
 4) npm install
     - Navigate to the folder called "frontend" inside the project called "CodeNoir"
     - Type the following command into your terminal:
