@@ -33,7 +33,7 @@ const Landing = () => {
         </div>
         <div className="col-span-1">
           <a
-            href="/signup"
+            href="/test"
             className="max-w-[800px] w-[200px] h-screen mx-auto text-center flex flex-col justify-center"
           >
             <button className="text-center rounded-md font-bold my-6 mx-auto px-16 py-6 text-5xl bg-[#ffffff] hover:bg-[#0080FF] text-black hover:text-white transition duration-300 ease-in-out drop-shadow-[0_5px_5px_rgb(100,177,253)]">
