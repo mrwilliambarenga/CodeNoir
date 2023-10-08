@@ -87,7 +87,7 @@ const Home = () => {
               className="bg-white w-[45rem] rounded-full py-4 px-2 text-center font-bold my-5"
               placeholder="Password"
             />
-            <div className="flex flex-row">
+            <div className="flex flex-row justify-center items-center">
               <input size="medium" type="checkbox" />
               <p className="text-lg ml-2 text-white font-bold">Remember me</p>
             </div>
@@ -96,8 +96,8 @@ const Home = () => {
                 Sign In
               </button>
             </a>
-            <div className="flex flex-row justify-center text-center mt-4">
-              <p className="font-bold mt-1">Don't have an account?</p>
+            <div className="flex flex-row justify-center items-center text-center mt-4">
+              <p className="font-bold">Don't have an account?</p>
               <button
                 onClick={handleShowSignUp}
                 className="w-[200px] rounded-md font-bold mx-auto px-6 text-lg text-white hover:text-black transition duration-300 ease-in-out"
@@ -146,8 +146,8 @@ const Home = () => {
                 Register
               </button>
             </a>
-            <div className="flex flex-row justify-center text-center mt-4">
-              <p className="font-bold mt-1">Already have an account?</p>
+            <div className="flex flex-row justify-center text-center items-center">
+              <p className="font-bold">Already have an account?</p>
               <button
                 onClick={handleShowLogin}
                 className="w-[200px] rounded-md font-bold mx-auto px-6 text-lg text-white hover:text-black transition duration-300 ease-in-out"
