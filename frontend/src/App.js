@@ -6,6 +6,9 @@ import Landing from "./pages/Landing";
 import Main from "./pages/Main";
 import SignUp from "./pages/SignUp";
 import LogIn from "./pages/LogIn";
+import Activate from "./pages/Activate";
+import ResetPassword from "./pages/ResetPassword";
+import ResetPasswordConfirm from "./pages/ResetPasswordConfirm";
 
 const App = () => {
   return (
@@ -16,6 +19,12 @@ const App = () => {
         <Route path="/main" element={<Main />} />
         <Route path="/signup" element={<SignUp />} />
         <Route path="/login" element={<LogIn />} />
+        <Route path="/activate/:uid/:token" element={<Activate />} />
+        <Route path="/reset-password" element={<ResetPassword />} />
+        <Route
+          path="/password/reset/confirm/:uid/:token"
+          element={<ResetPasswordConfirm />}
+        />
       </Routes>
     </BrowserRouter>
   );

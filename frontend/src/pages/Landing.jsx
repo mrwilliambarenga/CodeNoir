@@ -5,7 +5,7 @@ import uni from "../assets/uni.png";
 
 const Landing = () => {
   return (
-    <div className="h-screen text-black">
+    <div className="h-screen text-white bg-gradient-to-b from-[#b9dcff] to-[#0080FF]">
       <div className="grid grid-rows-none grid-cols-3">
         <div className="col-span-2">
           <div className="text-white relative z-10 max-w-[800px] w-full h-screen mx-auto text-center flex flex-col justify-center">
