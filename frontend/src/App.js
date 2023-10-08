@@ -4,8 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Landing from "./pages/Landing";
 import Main from "./pages/Main";
-import SignUp from "./pages/SignUp";
-import LogIn from "./pages/LogIn";
+import Test from "./pages/Test";
 
 const App = () => {
   return (
@@ -14,8 +13,7 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/landing" element={<Landing />} />
         <Route path="/main" element={<Main />} />
-        <Route path="/signup" element={<SignUp />} />
-        <Route path="/login" element={<LogIn />} />
+        <Route path="/test" element={<Test />} />
       </Routes>
     </BrowserRouter>
   );
