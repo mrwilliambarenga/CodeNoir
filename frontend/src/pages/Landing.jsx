@@ -53,8 +53,8 @@ const Landing = () => {
                       loop
                     />
                   </div>
-                  <h2 className="text-3xl py-4 font-semibold">
-                    Find your bubble
+                  <h2 className="text-3xl py-4 font-semibold flex flex-row self-center justify-center">
+                    Find your <p className="font-bold ml-2">bubble</p>
                   </h2>
                 </div>
                 <div className="col-span-1">
@@ -64,10 +64,10 @@ const Landing = () => {
               </div>
             </div>
           </div>
-          <div className="col-span-1">
+          <div className="col-span-1 h-screen max-w-[800px] w-[200px] ml-14 text-center flex flex-col justify-center">
             <a
               href="/test"
-              className="max-w-[800px] w-[200px] h-screen ml-14 text-center flex flex-col justify-center"
+              className=""
             >
               <button className="text-center rounded-md font-bold mx-auto my-6 px-16 py-6 text-5xl bg-[#ffffff] hover:bg-[#0080FF] text-black hover:text-white transition duration-300 ease-in-out drop-shadow-[0_5px_5px_rgb(100,177,253)]">
                 Begin
