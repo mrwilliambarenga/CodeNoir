@@ -8,10 +8,14 @@ import serene from "../assets/serene.png";
 import logo from "../assets/logo.png";
 
 const questions = [
-  "I am comfortable meeting new people",
-  "I enjoy solving complex problems",
-  "I prefer working in a team rather than alone",
-  // Add more questions...
+  "I prefer to spend my free time alone",
+  "When faced with a challenge I tend to confront it head on and take charge",
+  "I feel most energised when I have some quiet time to relax and recharge",
+  "When working on a group project I am more likely to be assertive and vocal about my ideas",
+  "In uncertain situations, I tend to feel stressed",
+  "I enjoy trying new things and exploring new ideas",
+  "When faced with conflict I am more likely to avoid confrontation and hope it resolve itself",
+  "When making decisions I rely more on gut and emotion",
 ];
 
 const Test = () => {
